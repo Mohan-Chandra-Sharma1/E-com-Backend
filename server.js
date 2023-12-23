@@ -117,7 +117,7 @@ const swaggerData = JSON.parse(fs.readFileSync('./swagger.json', 'utf-8'));
 const server = express();
 
 var corsOptions = {
-  origin: "http://localhost:5500"
+  origin: "http://localhost:3000"
 }
 server.use(cors(corsOptions));
 // server.use(express.urlencoded(extended))
